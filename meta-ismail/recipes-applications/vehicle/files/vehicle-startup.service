@@ -1,0 +1,8 @@
+[Unit]
+Description=vehicle CMake Service
+
+[Service]
+ExecStart=/usr/bin/vehicle_diagnostics 
+
+[Install]
+WantedBy=multi-user.target
